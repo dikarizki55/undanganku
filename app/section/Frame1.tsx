@@ -1,0 +1,37 @@
+export default function Frame1() {
+  return (
+    <div className="bg-[url('/images/page1/bg1.jpg')] bg-cover bg-center w-full h-screen inline-flex justify-center items-center gap-2.5 overflow-hidden">
+      <div className="absolute inset-0 bg-black/50 w-full h-screen"></div>
+      <div className="flex-1 self-stretch pt-14 pb-16 inline-flex flex-col justify-between items-center z-10">
+        <div className="w-64 flex flex-col justify-start items-center gap-3">
+          <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Aroma_Beauty'] tracking-wide">
+            WEDDING INVITATION
+          </div>
+          <div className="self-stretch text-center justify-start text-white text-4xl font-normal font-['Aroma_Beauty']">
+            DIKA & DISKA
+          </div>
+        </div>
+        <div className="self-stretch flex flex-col justify-start items-center gap-3.5">
+          <div className="self-stretch flex flex-col justify-start items-center gap-3">
+            <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Plus_Jakarta_Sans']">
+              Kepada Yth.Bapak/Ibu/Saudara/i:
+            </div>
+            <div className="text-center justify-start text-white text-2xl font-normal font-['Aleo']">
+              Tamu Undangan
+            </div>
+            <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['NanumGothic']">
+              Mohon maaf jika ada kesalahan penulisan nama dan gelar
+            </div>
+          </div>
+          <a href="#frame2">
+            <div className="px-2.5 py-2 bg-stone-700 rounded inline-flex justify-center items-center gap-2.5">
+              <div className="justify-start text-white text-xs font-normal font-['Aroma_Beauty'] tracking-wider">
+                OPEN INVITATION
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
