@@ -11,25 +11,26 @@ type TimeLeft = {
 
 // "2025-06-22T07:00:00"
 
-function Frame6({ targetDate }: { targetDate: string }) {
-  const calculateTimeLeft = (): TimeLeft => {
-    const difference = new Date(targetDate).getTime() - new Date().getTime();
+const calculateTimeLeft = (targetDate: string): TimeLeft => {
+  const difference = new Date(targetDate).getTime() - new Date().getTime();
 
-    const timeLeft: TimeLeft = {
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-      minutes: Math.floor((difference / 1000 / 60) % 60),
-      seconds: Math.floor((difference / 1000) % 60),
-    };
-
-    return timeLeft;
+  const timeLeft: TimeLeft = {
+    days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+    hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+    minutes: Math.floor((difference / 1000 / 60) % 60),
+    seconds: Math.floor((difference / 1000) % 60),
   };
 
-  const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft());
+  return timeLeft;
+};
+function Frame6({ targetDate }: { targetDate: string }) {
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>(
+    calculateTimeLeft(targetDate)
+  );
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
+      setTimeLeft(calculateTimeLeft(targetDate));
     }, 1000);
 
     return () => clearInterval(timer);
