@@ -24,3 +24,63 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: "Aroma_Beauty";
+  src: url("/fonts/Arore.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-aroma {
+  font-family: "Aroma_Beauty";
+}
+
+@font-face {
+  font-family: "gellary";
+  src: url("/fonts/Gellary.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-gellary {
+  font-family: "gellary";
+}
+
+@font-face {
+  font-family: "gustato";
+  src: url("/fonts/GustatoryDelightRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-gustato {
+  font-family: "gustato";
+}
+
+@font-face {
+  font-family: "sergie";
+  src: url("/fonts/Sergie-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-sergie {
+  font-family: "sergie";
+}
+
+@font-face {
+  font-family: "spectral";
+  src: url("/fonts/Spectral-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-spectral {
+  font-family: "spectral";
+}

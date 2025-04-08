@@ -7,12 +7,12 @@ function Frame2() {
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="w-80 flex-1 self-stretch inline-flex flex-col justify-end items-center gap-2.5 z-10">
         <div className=" self-stretch flex flex-col justify-start items-center gap-1.5">
-          <div className="self-stretch text-center justify-start text-white text-3xl font-normal font-['Gustatory_Delight']">
+          <div className="self-stretch text-center justify-start text-white text-3xl font-normal font-gustato">
             the wedding of
           </div>
           <div className="self-stretch h-11 inline-flex justify-between items-center">
             <div className="flex-1 self-stretch pt-2 flex justify-center items-center gap-2.5">
-              <div className="text-center justify-start text-white text-3xl font-normal font-['Aroma_Beauty']">
+              <div className="text-center justify-start text-white text-3xl font-normal font-aroma">
                 DISKA
               </div>
             </div>
@@ -22,13 +22,13 @@ function Frame2() {
               </div>
             </div>
             <div className="flex-1 self-stretch pt-2 flex justify-center items-center gap-2.5">
-              <div className="text-center justify-start text-white text-3xl font-normal font-['Aroma_Beauty']">
+              <div className="text-center justify-start text-white text-3xl font-normal font-aroma">
                 DIKA
               </div>
             </div>
           </div>
           <div className="self-stretch h-0 outline-2 outline-offset-[-1px] outline-white"></div>
-          <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Spectral'] leading-none">
+          <div className="self-stretch text-center justify-start text-white text-xs font-normal font-spectral leading-none">
             “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
             pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
             dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa

@@ -40,40 +40,40 @@ function Frame6({ targetDate }: { targetDate: string }) {
     <div className="bg-[url('/images/page6/bg1.png')] bg-cover bg-center w-full h-72 px-7 inline-flex justify-center items-center gap-2.5 overflow-hidden relative">
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="w-60 inline-flex flex-col justify-start items-center gap-9 z-10">
-        <div className="self-stretch text-center justify-start text-white text-6xl font-normal font-['Gustatory_Delight'] leading-[55.07px]">
+        <div className="self-stretch text-center justify-start text-white text-6xl font-normal font-gustato leading-[55.07px]">
           Counting Days
         </div>
         <div className="w-56 flex flex-col justify-start items-center gap-6">
           <div className="self-stretch inline-flex justify-start items-center gap-6">
             <div className="w-10 inline-flex flex-col justify-start items-start gap-1.5">
-              <div className="self-stretch text-center justify-start text-white text-base font-normal font-['Spectral'] leading-none">
+              <div className="self-stretch text-center justify-start text-white text-base font-normal font-spectral leading-none">
                 {timeLeft.days}
               </div>
-              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Spectral'] leading-3">
+              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-spectral leading-3">
                 Hari
               </div>
             </div>
             <div className="w-10 inline-flex flex-col justify-start items-start gap-1.5">
-              <div className="self-stretch text-center justify-start text-white text-base font-normal font-['Spectral'] leading-none">
+              <div className="self-stretch text-center justify-start text-white text-base font-normal font-spectral leading-none">
                 {timeLeft.hours}
               </div>
-              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Spectral'] leading-3">
+              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-spectral leading-3">
                 Jam
               </div>
             </div>
             <div className="w-10 inline-flex flex-col justify-start items-start gap-1.5">
-              <div className="self-stretch text-center justify-start text-white text-base font-normal font-['Spectral'] leading-none">
+              <div className="self-stretch text-center justify-start text-white text-base font-normal font-spectral leading-none">
                 {timeLeft.minutes}
               </div>
-              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Spectral'] leading-3">
+              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-spectral leading-3">
                 Menit
               </div>
             </div>
             <div className="w-10 inline-flex flex-col justify-start items-start gap-1.5">
-              <div className="self-stretch text-center justify-start text-white text-base font-normal font-['Spectral'] leading-none">
+              <div className="self-stretch text-center justify-start text-white text-base font-normal font-spectral leading-none">
                 <span>{timeLeft.seconds}</span>
               </div>
-              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Spectral'] leading-3">
+              <div className="self-stretch text-center justify-start text-white text-xs font-normal font-spectral leading-3">
                 Detik
               </div>
             </div>
@@ -84,9 +84,11 @@ function Frame6({ targetDate }: { targetDate: string }) {
                 src="/images/page6/notes.svg"
                 alt="icon"
                 className="w-2.5 h-3.5"
+                width={10}
+                height={14}
               />
             </div>
-            <div className="justify-start text-stone-100 text-xs font-normal font-['Spectral']">
+            <div className="justify-start text-stone-100 text-xs font-normal font-spectral">
               Ingatkan Acara
             </div>
           </div>
