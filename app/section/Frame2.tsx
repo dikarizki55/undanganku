@@ -1,5 +1,3 @@
-import React from "react";
-
 function Frame2() {
   return (
     <div
