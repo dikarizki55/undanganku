@@ -12,6 +12,10 @@ export default function Home() {
   const [id, setId] = useState<string | null>(null);
 
   useEffect(() => {
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+
     if (typeof window !== "undefined") {
       const params = new URLSearchParams(window.location.search);
       setId(params.get("id"));

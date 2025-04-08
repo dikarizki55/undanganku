@@ -18,7 +18,7 @@ export default function Frame1({ id }: Frame1Props) {
       );
 
       // Scroll ke atas (frame awal)
-      window.scrollTo(0, 0);
+      // window.scrollTo(0, 0);
     }
 
     if (scrollEnabled) {
