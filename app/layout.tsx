@@ -16,6 +16,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Diska & Dika",
   description: "Undangan Nikah",
+  openGraph: {
+    title: "Diska & Dika - Undangan Nikah",
+    description: "Hitung mundur menuju hari spesial kami, 22 Juni 2025 💍",
+    url: "https://diskadika.vercel.app", // ganti dengan domain kamu
+    siteName: "Diska & Dika",
+    images: [
+      {
+        url: "https://diskadika.vercel.app/images/page1/bg1.jpg", // Gambar harus full URL dan bisa diakses publik
+        width: 1200,
+        height: 630,
+        alt: "Undangan Nikah Diska & Dika",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -25,10 +40,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <Head>
-        <meta property="og:description" content="Mohon datang yaaa" />
-        <meta property="og:image" content="/images/page1/bg1.jpg" />
-      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
