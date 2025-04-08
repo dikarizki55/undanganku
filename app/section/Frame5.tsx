@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import React from "react";
 
 function Frame5() {
@@ -8,7 +10,7 @@ function Frame5() {
           <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Spectral'] leading-tight">
             Wedding
           </div>
-          <div className="w-36 h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
+          <div className="w-36 h-0 outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
           <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Spectral'] leading-tight">
             Event
           </div>
@@ -61,7 +63,7 @@ function Frame5() {
           <a href="https://maps.app.goo.gl/NH8K34WKcpNU8QDm6">
             <div className="px-2.5 py-2 bg-stone-700 rounded inline-flex justify-center items-center gap-1.5">
               <div className="w-3.5 h-3.5">
-                <img
+                <Image
                   src="/images/page5/maps.svg"
                   alt="icon"
                   className="w-3.5 h-3.5"

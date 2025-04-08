@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 type TimeLeft = {
@@ -79,7 +80,7 @@ function Frame6({ targetDate }: { targetDate: string }) {
           </div>
           <div className="px-2.5 py-2 bg-stone-700 rounded inline-flex justify-center items-center gap-1.5">
             <div className="w-2.5 h-3.5">
-              <img
+              <Image
                 src="/images/page6/notes.svg"
                 alt="icon"
                 className="w-2.5 h-3.5"

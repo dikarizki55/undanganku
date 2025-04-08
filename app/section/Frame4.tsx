@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 function Frame4() {
   return (
@@ -12,9 +12,10 @@ function Frame4() {
           </div>
         </div>
         <div className="w-72 flex flex-col justify-start items-center gap-6">
-          <img
+          <Image
             className="w-72 h-72 relative object-cover"
             src="/images/page4/berdua.jpg"
+            alt="img"
           />
           <div className="self-stretch justify-start text-stone-100 text-xs font-normal font-['Spectral'] leading-tight">
             2024 Kami bertemu ketika bermain bersama. Meski singkat, tetapi kami

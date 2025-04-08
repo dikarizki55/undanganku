@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import React from "react";
 
 function Frame3() {
@@ -29,15 +31,16 @@ function Frame3() {
             <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Spectral'] leading-tight">
               The
             </div>
-            <div className="w-24 h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
+            <div className="w-24 h-0 outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
             <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Spectral'] leading-tight">
               Bride
             </div>
           </div>
           <div className="px-2.5 pt-2.5 pb-14 bg-stone-700 inline-flex justify-start items-center">
-            <img
+            <Image
               className="w-44 h-60 relative object-cover"
               src="/images/page3/cewe.jpg"
+              alt="cewe"
             />
           </div>
           <div className="w-44 flex flex-col justify-start items-center gap-3">
@@ -45,7 +48,7 @@ function Frame3() {
               <div className="self-stretch text-center justify-start text-stone-700 text-7xl font-normal font-['Gustatory_Delight'] leading-[61.68px]">
                 Diska
               </div>
-              <div className="self-stretch h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
+              <div className="self-stretch h-0 outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
               <div className="self-stretch text-center justify-start text-stone-700 text-xl font-normal font-['Aroma_Beauty'] leading-normal">
                 DISKA AYU ZUNAIDA
               </div>
@@ -58,15 +61,16 @@ function Frame3() {
             <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Spectral'] leading-tight">
               The
             </div>
-            <div className="w-24 h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
+            <div className="w-24 h-0 outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
             <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Spectral'] leading-tight">
               Groom
             </div>
           </div>
           <div className="px-2.5 pt-2.5 pb-14 bg-stone-700 inline-flex justify-start items-center">
-            <img
+            <Image
               className="w-44 h-60 relative object-cover"
               src="/images/page3/cowo.jpg"
+              alt="cowo"
             />
           </div>
           <div className="w-44 flex flex-col justify-start items-center gap-3">
@@ -74,7 +78,7 @@ function Frame3() {
               <div className="self-stretch text-center justify-start text-stone-700 text-7xl font-normal font-['Gustatory_Delight'] leading-[61.68px]">
                 Dika
               </div>
-              <div className="self-stretch h-0 outline outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
+              <div className="self-stretch h-0 outline-1 outline-offset-[-0.50px] outline-stone-700"></div>
               <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Aroma_Beauty'] leading-normal">
                 DIKA RIZKI ARLIAN PUTRA
               </div>

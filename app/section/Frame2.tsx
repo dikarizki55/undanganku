@@ -27,7 +27,7 @@ function Frame2() {
               </div>
             </div>
           </div>
-          <div className="self-stretch h-0 outline outline-2 outline-offset-[-1px] outline-white"></div>
+          <div className="self-stretch h-0 outline-2 outline-offset-[-1px] outline-white"></div>
           <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Spectral'] leading-none">
             “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
             pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
