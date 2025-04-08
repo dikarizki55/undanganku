@@ -1,6 +1,6 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 import Frame1 from "./section/Frame1";
 import Frame2 from "./section/Frame2";
@@ -9,8 +9,14 @@ import Frame4 from "./section/Frame4";
 import Frame5 from "./section/Frame5";
 
 export default function Home() {
-  const searchParams = useSearchParams();
-  const id = searchParams.get("id");
+  const [id, setId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      setId(params.get("id"));
+    }
+  }, []);
 
   return (
     <div>
