@@ -5,8 +5,8 @@ function Frame2() {
       id="frame2"
     >
       <div className="absolute inset-0 bg-black/50"></div>
-      <div className="flex-1 self-stretch inline-flex flex-col justify-end items-center gap-2.5 z-10">
-        <div className="self-stretch flex flex-col justify-start items-center gap-1.5">
+      <div className="w-80 flex-1 self-stretch inline-flex flex-col justify-end items-center gap-2.5 z-10">
+        <div className=" self-stretch flex flex-col justify-start items-center gap-1.5">
           <div className="self-stretch text-center justify-start text-white text-3xl font-normal font-['Gustatory_Delight']">
             the wedding of
           </div>

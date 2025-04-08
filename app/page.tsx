@@ -7,6 +7,8 @@ import Frame2 from "./section/Frame2";
 import Frame3 from "./section/Frame3";
 import Frame4 from "./section/Frame4";
 import Frame5 from "./section/Frame5";
+import Frame6 from "./section/Frame6";
+import Frame7 from "./section/Frame7";
 
 export default function Home() {
   const [id, setId] = useState<string | null>(null);
@@ -29,6 +31,8 @@ export default function Home() {
       <Frame3 />
       <Frame4 />
       <Frame5 />
+      <Frame6 targetDate="2025-06-22T07:00:00" />
+      <Frame7 />
     </div>
   );
 }

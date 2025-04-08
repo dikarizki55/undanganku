@@ -2,7 +2,7 @@ import React from "react";
 
 function Frame5() {
   return (
-    <div className="w-full h-[852px] px-7 bg-stone-100 inline-flex justify-center items-center gap-2.5 overflow-hidden">
+    <div className="w-full h-screen min-h-[852px] px-7 bg-stone-100 inline-flex justify-center items-center gap-2.5 overflow-hidden">
       <div className="flex-1 inline-flex flex-col justify-start items-center gap-14">
         <div className="self-stretch inline-flex justify-between items-center flex-wrap content-center">
           <div className="text-center justify-start text-stone-700 text-xl font-normal font-['Spectral'] leading-tight">
