@@ -242,11 +242,6 @@ export default function Frame8f() {
                 </div>
               </div>
             ))}
-            <div className="w-full h-24 rounded-lg border border-stone-700 shrink-0" />
-            <div className="w-full h-24 rounded-lg border border-stone-700 shrink-0" />
-            <div className="w-full h-24 rounded-lg border border-stone-700 shrink-0" />
-            <div className="w-full h-24 rounded-lg border border-stone-700 shrink-0" />
-            <div className="w-full h-24 rounded-lg border border-stone-700 shrink-0" />
           </div>
         </div>
       </div>
