@@ -84,3 +84,15 @@ body {
 .font-spectral {
   font-family: "spectral";
 }
+
+@font-face {
+  font-family: "spectralbold";
+  src: url("/fonts/Spectral-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-spectral-bold {
+  font-family: "spectralbold";
+}

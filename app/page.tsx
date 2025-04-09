@@ -9,7 +9,8 @@ import Frame4 from "./section/Frame4";
 import Frame5 from "./section/Frame5";
 import Frame6 from "./section/Frame6";
 import Frame7 from "./section/Frame7";
-import Frame8 from "./section/Frame8";
+// import Frame8 from "./section/Frame8";
+import Frame8fs from "./section/frame8fs";
 import Frame9 from "./section/Frame9";
 
 export default function Home() {
@@ -35,7 +36,8 @@ export default function Home() {
       <Frame5 />
       <Frame6 targetDate="2025-06-22T07:00:00" />
       <Frame7 />
-      <Frame8 />
+      {/* <Frame8 /> */}
+      <Frame8fs />
       <Frame9 />
     </div>
   );
