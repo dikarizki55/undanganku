@@ -4,7 +4,7 @@ import React from "react";
 
 function Frame5() {
   return (
-    <div className="w-full h-screen min-h-[852px] px-7 bg-stone-100 inline-flex justify-center items-center gap-2.5 overflow-hidden">
+    <div className="w-full py-20 px-7 bg-stone-100 inline-flex justify-center items-center gap-2.5 overflow-hidden">
       <div className="flex-1 inline-flex flex-col justify-start items-center gap-14">
         <div className="self-stretch inline-flex justify-between items-center flex-wrap content-center">
           <div className="text-center justify-start text-stone-700 text-xl font-normal font-spectral leading-tight">
@@ -61,6 +61,47 @@ function Frame5() {
             </div>
           </div>
           <a href="https://maps.app.goo.gl/NH8K34WKcpNU8QDm6">
+            <div className="px-2.5 py-2 bg-stone-700 rounded inline-flex justify-center items-center gap-1.5">
+              <div className="w-3.5 h-3.5">
+                <Image
+                  src="/images/page5/maps.svg"
+                  alt="icon"
+                  className="w-3.5 h-3.5"
+                  width={14}
+                  height={14}
+                />
+              </div>
+              <div className="justify-start text-stone-100 text-xs font-normal font-spectral">
+                Lihat Peta
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="self-stretch flex flex-col justify-start items-center gap-7">
+          <div className="self-stretch text-center justify-start text-stone-700 text-5xl font-normal font-gustato leading-10">
+            Unduh Mantu
+          </div>
+          <div className="self-stretch text-center justify-start text-stone-700 text-xs font-normal font-spectral leading-tight">
+            KAMI MOHON KEHADIRAN BAPAK/IBU/SAUDARA/I PADA
+            <br />
+            ACARA RESEPSI PERNIKAHAN YANG AKAN
+            <br />
+            DISELENGGARAKAN PADA:
+          </div>
+          <div className="text-center justify-start text-stone-700 text-2xl font-normal font-spectral leading-normal">
+            SENIN, 23 JUNI
+            <br />
+            2025
+          </div>
+          <div className="w-80 h-10 flex flex-col justify-start items-start gap-1.5">
+            <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-base font-normal font-spectral leading-none">
+              Jam Bebas
+            </div>
+            <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-base font-normal font-spectral leading-none">
+              Kediaman mempelai Pria
+            </div>
+          </div>
+          <a href="https://maps.app.goo.gl/LcULenGVcZugAWRA9">
             <div className="px-2.5 py-2 bg-stone-700 rounded inline-flex justify-center items-center gap-1.5">
               <div className="w-3.5 h-3.5">
                 <Image

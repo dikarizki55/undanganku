@@ -20,94 +20,22 @@ const Frame7 = () => {
             DIKA
           </div>
         </div>
-        <Image
-          className="self-stretch h-52 relative object-cover"
-          src="/images/page7/p1.jpg"
-          alt="img"
-          width={384}
-          height={208}
-        />
+        <div className="bg-[url('/images/page7/p1.jpg')] bg-cover bg-center self-stretch h-52 relative object-cover" />
         <div className="inline-flex justify-start items-start gap-2.5">
           <div className="w-44 inline-flex flex-col justify-start items-start gap-2.5">
-            <Image
-              className="self-stretch h-28 relative object-cover"
-              src="/images/page7/p2.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-28 object-cover"
-              src="/images/page7/p3.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-28 object-cover"
-              src="/images/page7/p4.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-60 object-cover"
-              src="/images/page7/p5.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-64 object-cover"
-              src="/images/page7/p6.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-64 object-cover"
-              src="/images/page7/p7.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
+            <div className="self-stretch h-28 relative bg-[url('/images/page7/p2.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-28 bg-[url('/images/page7/p3.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-28 bg-[url('/images/page7/p4.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-60 bg-[url('/images/page7/p5.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-64 bg-[url('/images/page7/p6.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-64 bg-[url('/images/page7/p7.jpg')] bg-cover bg-center" />
           </div>
           <div className="w-44 inline-flex flex-col justify-start items-start gap-2.5">
-            <Image
-              className="self-stretch h-28 object-cover"
-              src="/images/page7/p8.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-64 object-cover"
-              src="/images/page7/p9.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-60 object-cover"
-              src="/images/page7/p10.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-64 object-cover"
-              src="/images/page7/p11.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
-            <Image
-              className="self-stretch h-64 object-cover"
-              src="/images/page7/p12.jpg"
-              alt="img"
-              width={176}
-              height={112}
-            />
+            <div className="self-stretch h-28 bg-[url('/images/page7/p8.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-64 bg-[url('/images/page7/p9.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-60 bg-[url('/images/page7/p10.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-64 bg-[url('/images/page7/p11.jpg')] bg-cover bg-center" />
+            <div className="self-stretch h-64 bg-[url('/images/page7/p12.jpg')] bg-cover bg-center" />
           </div>
         </div>
       </div>
