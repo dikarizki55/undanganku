@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Frame7 = () => {
   return (
     <div className="w-full h-[1730px] px-7 bg-stone-100 inline-flex justify-center items-center gap-2.5 overflow-hidden">
