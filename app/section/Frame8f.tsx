@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { createClient } from "@supabase/supabase-js";
 import { useRouter } from "next/navigation";
+import { timeAgo } from "./libaa/timeAgo";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -205,11 +206,20 @@ export default function Frame8f() {
                 key={wish.id}
                 className="w-full h-24 rounded-lg border border-stone-700 shrink-0 p-2 text-stone-700 overflow-y-auto"
               >
-                <p className="text-sm">
+                <div className=" w-full flex justify-between items-center">
                   <span className="font-spectral-bold text-lg">
                     {wish.user_id}
                   </span>
-                </p>
+                  <span className="font-spectral text-sm">
+                    {timeAgo(wish.created_at)}
+                  </span>
+                </div>
+                {/* <p className="text-sm">
+                  <span className="font-spectral-bold text-lg">
+                    {wish.user_id}
+                    {wish.created_at}
+                  </span>
+                </p> */}
                 <p className="font-spectral text-base leading-5">
                   {wish.message}
                 </p>

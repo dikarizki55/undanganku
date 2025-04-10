@@ -13,6 +13,9 @@ import Frame7 from "./section/Frame7";
 import Frame8fs from "./section/frame8fs";
 import Frame9 from "./section/Frame9";
 
+import MusicPlayer from "./section/libaa/MusicPlayer";
+import Frame10rekening from "./section/Frame10rekening";
+
 export default function Home() {
   const [id, setId] = useState<string | null>(null);
 
@@ -29,6 +32,7 @@ export default function Home() {
 
   return (
     <div>
+      <MusicPlayer startAt={120} />
       <Frame1 id={id ?? ""} />
       <Frame2 />
       <Frame3 />
@@ -36,6 +40,7 @@ export default function Home() {
       <Frame5 />
       <Frame6 targetDate="2025-06-22T07:00:00" />
       <Frame7 />
+      <Frame10rekening />
       {/* <Frame8 /> */}
       <Frame8fs />
       <Frame9 />
