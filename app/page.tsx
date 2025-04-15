@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div>
-      <MusicPlayer startAt={120} />
+      <MusicPlayer startAt={0} />
       <Frame1 id={id ?? ""} />
       <Frame2 />
       <Frame3 />

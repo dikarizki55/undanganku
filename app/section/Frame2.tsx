@@ -33,7 +33,7 @@ function Frame2() {
             pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
             dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa
             kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar
-            terdapat tanda-tanda bagi kaum yang berpikir.”  (QS. Ar-Rum: 21)
+            terdapat tanda-tanda bagi kaum yang berpikir.” (QS. Ar-Rum: 21)
           </div>
         </div>
       </div>
