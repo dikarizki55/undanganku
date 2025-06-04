@@ -20,15 +20,16 @@ function Frame4() {
             height={288}
           />
           <div className="self-stretch justify-start text-stone-100 text-xs font-normal font-spectral leading-tight">
-            2024 Kami bertemu ketika bermain bersama. Meski singkat, tetapi kami
-            merasa saling tertarik satu sama lain dan saling ingin mengenal
-            lebih lanjut. Sejak itu, kami mulai semakin dekat.
+            2024 Pertemuan yang tidak pernah kami duga akhirnya datang. Pada
+            tahun ini kami mulai mengenal satu sama lain lebih dalam. Meskipun
+            singkat, semua terasa menyenangkan dan menenangkan.
             <br />
             <br />
-            2025 Kami memutuskan untuk mengikat janji suci dalam pernikahan.
-            Dalam momen yang penuh cinta dan haru ini, kami melangkah ke jenjang
-            hidup baru, siap untuk menghadapi masa depan bersama dengan saling
-            cinta dan dukungan satu sama lain
+            2025 Pada tahun ini kami mengucap janji suci dihadapan Tuhan,
+            keluarga, serta seluruh kerabat kami. Terlepas dari naik turunnya
+            hidup kami nanti, kami bertekad serta memutuskan untuk bersama-sama
+            menaiki satu persatu anak tangga kehidupan sampai kita bisa berada
+            dititik yang kami impikan bersama. Berdua. Selamanya.
           </div>
         </div>
       </div>
