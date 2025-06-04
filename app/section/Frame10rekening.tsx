@@ -5,8 +5,8 @@ const Frame10rekening = () => {
   return (
     <div className="w-full h-[400px] px-7 bg-stone-200 inline-flex flex-col justify-center items-center gap-6 overflow-hidden">
       <div className="w-80 justify-start text-stone-700 text-base font-normal font-['Spectral']">
-        Nggak bisa datang? Gak masalah, doakan aja yang terbaik untuk kami ya!
-        ini info rekeningnya 😉
+        Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda
+        kasih untuk kami, dapat melalui:
       </div>
       <div className="w-80 inline-flex justify-between items-center">
         <div className="w-24 h-20 relative bg-white rounded-[19px] overflow-hidden">

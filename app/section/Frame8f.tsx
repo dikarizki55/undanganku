@@ -149,8 +149,8 @@ export default function Frame8f() {
           {(!allWishes.find((w) => w.user_id === userId) || editingWishId) && (
             <div className="inline-flex flex-col justify-start items-center gap-4">
               <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-sm font-normal font-spectral leading-none">
-                Kepada Bapak/Ibu/Saudara/I yang ingin memberikan ucapan kepada
-                kami dapat dituliskan di bawah ini:
+                Kepada Bapak/Ibu/Saudara/i yang ingin memberikan ucapan kepada
+                kami dapat dituliskan dibawah ini:
               </div>
               <div className="self-stretch px-4 py-3.5 bg-white/20 rounded-3xl backdrop-blur-2xl flex flex-col justify-start items-start gap-4">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
