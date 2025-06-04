@@ -37,7 +37,7 @@ function Frame6({ targetDate }: { targetDate: string }) {
     return () => clearInterval(timer);
   }, [targetDate]);
   return (
-    <div className="bg-[url('/images/page6/bg1.png')] bg-cover bg-center w-full h-72 px-7 inline-flex justify-center items-center gap-2.5 overflow-hidden relative">
+    <div className="bg-[url('/images/page6/bg1.jpg')] bg-cover bg-center w-full h-72 px-7 inline-flex justify-center items-center gap-2.5 overflow-hidden relative">
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="w-60 inline-flex flex-col justify-start items-center gap-9 z-10">
         <div className="self-stretch text-center justify-start text-white text-6xl font-normal font-gustato leading-[55.07px]">
