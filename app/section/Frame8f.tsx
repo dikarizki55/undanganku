@@ -135,7 +135,8 @@ export default function Frame8f() {
   return (
     <div>
       <div className="bg-[url('/images/page8/bg1.jpg')] bg-cover bg-center w-full h-[988px] px-7 bg-white/60 inline-flex justify-center items-center gap-2.5 overflow-hidden relative">
-        <div className="absolute inset-0 bg-white/60"></div>
+        <div className="absolute inset-0 bg-white/70"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
         <div className="w-80 h-[830.49px] inline-flex flex-col justify-start items-center gap-4 z-10">
           <div className="w-52 flex-1 px-2.5 inline-flex justify-center items-center gap-1.5">
             <div className="text-center justify-start text-stone-700 text-3xl font-normal font-aroma leading-[90%] tracking-[9%]">
