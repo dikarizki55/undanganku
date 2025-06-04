@@ -46,19 +46,19 @@ export default function Frame1({ id }: Frame1Props) {
             WEDDING INVITATION
           </div>
           <div className="self-stretch text-center justify-start text-white text-4xl font-normal font-aroma">
-            DIKA & DISKA
+            DISKA & DIKA
           </div>
         </div>
         <div className="self-stretch flex flex-col justify-start items-center gap-3.5">
           <div className="self-stretch flex flex-col justify-start items-center gap-3">
             <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['Plus_Jakarta_Sans']">
-              Kepada Yth.Bapak/Ibu/Saudara/i:
+              Kepada Bapak/Ibu/Saudara/i:
             </div>
             <div className="text-center justify-start text-white text-2xl font-normal font-['Aleo']">
               {!id ? "Tamu Undangan" : id}
             </div>
             <div className="self-stretch text-center justify-start text-white text-xs font-normal font-['NanumGothic']">
-              Mohon maaf jika ada kesalahan penulisan nama dan gelar
+              Mohon maaf apabila ada kesalahan penulisan nama dan gelar
             </div>
           </div>
           {/* <a href="#frame2"> */}

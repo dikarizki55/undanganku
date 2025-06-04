@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Undangan Nikah",
   openGraph: {
     title: "Diska & Dika",
-    description: "Undangan pernikahan Kami💍",
+    description: "Our Wedding Invitation💍",
     url: "https://diskadika.vercel.app", // ganti dengan domain kamu
     siteName: "Diska & Dika",
     images: [
