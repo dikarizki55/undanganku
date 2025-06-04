@@ -22,10 +22,8 @@ function Frame5() {
           <div className="self-stretch text-center justify-start text-stone-700 text-xs font-normal font-spectral leading-none">
             AKAD NIKAH AKAN DILAKSANAKAN PADA:
           </div>
-          <div className="text-center justify-start text-stone-700 text-2xl font-normal font-spectral leading-normal">
-            MINGGU, 22 JUNI
-            <br />
-            2025
+          <div className="text-center justify-start text-stone-700 text-xl font-normal font-spectral leading-normal">
+            MINGGU, 22 JUNI 2025
           </div>
           <div className="w-80 h-10 flex flex-col justify-start items-start gap-1.5">
             <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-base font-normal font-spectral leading-none">
@@ -47,10 +45,8 @@ function Frame5() {
             <br />
             DISELENGGARAKAN PADA:
           </div>
-          <div className="text-center justify-start text-stone-700 text-2xl font-normal font-spectral leading-normal">
-            MINGGU, 22 JUNI
-            <br />
-            2025
+          <div className="text-center justify-start text-stone-700 text-xl font-normal font-spectral leading-normal">
+            MINGGU, 22 JUNI 2025
           </div>
           <div className="w-80 h-10 flex flex-col justify-start items-start gap-1.5">
             <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-base font-normal font-spectral leading-none">
@@ -88,10 +84,8 @@ function Frame5() {
             <br />
             DISELENGGARAKAN PADA:
           </div>
-          <div className="text-center justify-start text-stone-700 text-2xl font-normal font-spectral leading-normal">
-            SENIN, 23 JUNI
-            <br />
-            2025
+          <div className="text-center justify-start text-stone-700 text-xl font-normal font-spectral leading-normal">
+            SENIN, 23 JUNI2025
           </div>
           <div className="w-80 h-10 flex flex-col justify-start items-start gap-1.5">
             <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-base font-normal font-spectral leading-none">

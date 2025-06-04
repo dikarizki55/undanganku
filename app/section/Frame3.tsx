@@ -22,7 +22,7 @@ function Frame3() {
               DIKA RIZKI ARLIAN PUTRA
             </div>
             <div className="self-stretch text-center justify-start text-stone-700 text-sm font-bold font-spectral leading-none">
-              22.07.2025
+              22.06.2025
             </div>
           </div>
         </div>

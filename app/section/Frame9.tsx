@@ -11,7 +11,7 @@ const Frame9 = () => {
             </div>
             <div className=" bg-[url('/images/page9/p1.jpg')] bg-cover bg-center w-full h-56 relative"></div>
             <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-sm font-normal font-spectral leading-tight">
-              Menjadi sebuah kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/I
+              Menjadi sebuah kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i
               berkenan hadir dalam hari bahagia kami Terima Kasih atas segala
               ucapan, doa, dan perhatian yang diberikan
               <br />
@@ -20,7 +20,7 @@ const Frame9 = () => {
           </div>
           <div className="self-stretch h-24 flex flex-col justify-start items-center gap-2">
             <div className="self-stretch text-center justify-start text-stone-700 text-xs font-normal font-spectral leading-none">
-              Kami yang berbahagia
+              Kami yang berbahagia;
             </div>
             <div className="self-stretch flex-1 text-center justify-start text-stone-700 text-5xl font-normal font-gustato leading-10">
               Diska & Dika

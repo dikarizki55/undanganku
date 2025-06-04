@@ -17,8 +17,8 @@ function Frame2() {
               </div>
             </div>
             <div className="flex-1 self-stretch flex justify-center items-center gap-2.5">
-              <div className="text-center justify-start text-white text-sm font-normal font-['Plus_Jakarta_Sans']">
-                Save The Date{" "}
+              <div className="text-center justify-start text-white text-[46px] font-normal font-['Plus_Jakarta_Sans']">
+                &{" "}
               </div>
             </div>
             <div className="flex-1 self-stretch pt-2 flex justify-center items-center gap-2.5">
