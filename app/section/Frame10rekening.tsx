@@ -24,7 +24,7 @@ const Frame10rekening = () => {
           <div className="bg-[url('/images/page10rekening/bcalogo.png')] bg-contain bg-center bg-no-repeat w-full h-full"></div>
         </div>
         <div className="w-48 inline-flex flex-col justify-start items-start gap-[3px]">
-          <CopyButton text="7690304729" />
+          <CopyButton text="0183592405" />
           <div className="self-stretch justify-start text-stone-700 text-base font-normal font-['Spectral']">
             Diska Ayu Zunaida
           </div>
