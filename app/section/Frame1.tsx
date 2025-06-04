@@ -40,7 +40,7 @@ export default function Frame1({ id }: Frame1Props) {
   return (
     <div className="bg-[url('/images/page1/bg1.jpg')] bg-cover bg-center w-full h-screen inline-flex justify-center items-center gap-2.5 overflow-hidden">
       <div className="absolute inset-0 bg-black/50 w-full h-screen"></div>
-      <div className="flex-1 self-stretch pt-14 pb-44 inline-flex flex-col justify-between items-center z-10">
+      <div className="flex-1 self-stretch pt-14 pb-48 inline-flex flex-col justify-between items-center z-10">
         <div className="w-64 flex flex-col justify-start items-center gap-3 pt-12">
           <div className="self-stretch text-center justify-start text-white text-xs font-normal font-aroma tracking-wide">
             WEDDING INVITATION
