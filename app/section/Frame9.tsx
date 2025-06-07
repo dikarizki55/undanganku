@@ -6,7 +6,7 @@ const Frame9 = () => {
           <div className="self-stretch h-96 flex flex-col justify-start items-center gap-4">
             <div className="w-52 px-2.5 inline-flex justify-center items-center gap-1.5">
               <div className="text-center justify-start text-stone-700 text-3xl font-normal font-aroma leading-[100%] tracking-[9%]">
-                THANK YOU
+                TERIMA KASIH
               </div>
             </div>
             <div className=" bg-[url('/images/page9/p1.jpg')] bg-cover bg-center w-full h-56 relative"></div>
